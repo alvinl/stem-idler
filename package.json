@@ -1,0 +1,8 @@
+{
+  "name": "stem-idler",
+  "version": "0.1.0",
+  "description": "Game idler plugin for Stem",
+  "main": "index.js",
+  "author": "Alvin Lazaro <me@alvinl.com>",
+  "license": "MIT"
+}
