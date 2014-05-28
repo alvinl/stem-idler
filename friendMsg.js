@@ -5,7 +5,7 @@ module.exports = function (steamID, rawMessage, messageType) {
       bot          = this.bot,
       command      = rawMessage.toLowerCase(),
       pluginConfig = this.configs['stem-idler'],
-      isAdmin      = this.utils.isAdmin(steamID);
+      isAdmin      = this.api.isAdmin(steamID);
 
   // Ignore `is typing` messages
   if (messageType === 2) return;
