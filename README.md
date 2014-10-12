@@ -4,7 +4,7 @@ Stem idler
 ### Installation
 
 1. `npm install git://github.com/alvinl/stem-idler.git`
-2. Add `"stem-idler": {}` to plugins.json
+2. Add `"stem-idler"` to your plugins array in `config.json`
 
 ### Commands
 
@@ -15,10 +15,10 @@ Stem idler
 ```json
 {
 
-  "stem-idler": {
+  "idler": {
 
     "idleOnLogin": false,
-    "games": ["440"]
+    "games": ["440", "730"]
 
   }
 
